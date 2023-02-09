@@ -1,4 +1,4 @@
-package kenigsberg.MorseCode;
+package kenigsberg.morsecode;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class MorseCodeTest
 {
     @Test
-    public void testToMorseCode()
+    public void toMorseCode()
     {
         // given
         MorseCode message = new MorseCode();
@@ -20,7 +20,7 @@ class MorseCodeTest
     }
 
     @Test
-    public void testToMessage()
+    public void toMessage()
     {
         //given
         MorseCode message = new MorseCode();

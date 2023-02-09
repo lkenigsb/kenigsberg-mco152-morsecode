@@ -1,4 +1,4 @@
-package kenigsberg.MorseCode;
+package kenigsberg.morsecode;
 
 public class MorseCode
 {
